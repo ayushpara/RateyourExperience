@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Rate your Experience</title>
+
+  <link href="node_modules/bootstrap/dist/css/bootstrap.css" type="text/css" rel="stylesheet"/>
+  <link href="Assets/css/style.css" rel="stylesheet" type="text/css"/>
+  <link href="node_modules/animate.css/animate.css" rel="stylesheet" type="text/css"/>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="Assets/js/emojis.js"></script>
+</head>
+<body>
+
+  <div class="jumbotron text-center">
+    <h1>Rate your Experience</h1>
+    <p>Click on Emojis to rate</p>
+  </div>
+
+  <div class="container-fluid p-5">
+    <div class="offset-md-3 col-md-6 text-center">
+      <div class="panel bg-light p-5">
+        <div class="panel-title"> <h5 class="text-left pb-2">Click to Rate</h5>  </div>
+        <div class="panel-body">
+          <div class="row justify-content-md-center mx-auto">
+            <div class="col" id="worst">
+              <img  class="emoji" id="emoji_1"/>
+              <p class="p-2">
+                Worst
+              </p>
+            </div>
+            <div class="col" id="bad">
+              <img class="emoji" id="emoji_2" />
+              <p class="p-2">
+                Bad
+              </p>
+            </div>
+            <div class="col" id="average">
+              <img  class="emoji" id="emoji_3"/>
+              <p class="p-2">
+                Average
+              </p>
+            </div>
+            <div class="col" id="good">
+              <img class="emoji" id="emoji_4"/>
+              <p class="p-2">
+                Good
+              </p>
+            </div>
+            <div class="col" id="excellent">
+              <img  class="emoji" id="emoji_5"/>
+              <p class="p-2">
+                Excellent
+              </p>
+            </div>
+          </div>
+          <div class="panel-footer p-3">
+              <button id="Submit_rate" class="btn btn-block btn-purp">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
